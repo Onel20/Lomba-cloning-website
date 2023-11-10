@@ -1,0 +1,160 @@
+:root {
+    --color1: #45434F;
+    --color2: #3A3742;
+    --color3: #312F38;
+    --color4: #D01D1D;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+nav.top {
+    display: flex;
+    width: 90vw;
+    background-color: silver;
+    position: fixed;
+    height: 75px;
+    margin: 2vw 5vw 0vw 5vw;
+    border-radius: 10px;
+}
+
+nav.top span.igs {
+    position: relative;
+}
+
+nav.page1 {
+    height: 110vh;
+}
+
+nav.page2 {
+    height: 90vh;
+    display: flex;
+}
+
+nav.page3 {
+    height: 100vh;
+}
+span.menu {
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
+
+div.home, div.about, div.contact {
+    display: flex;
+    justify-content: row;
+    font-size: 40px;
+    /* background-color: red; */
+    position: relative;
+    right: 0px;
+    font-weight: bolder;
+}
+
+div.home {
+    color: #D01D1D;
+}
+
+div.text {
+    color: var(--color4);
+    font-size: 50px;
+    top: 250px;
+    position: relative;
+    width: 500px;
+    left: 5vw;
+    font-weight: bolder;
+}
+
+span.igs{
+    background-image: url(assets/IGS.jpg);
+}
+
+nav.left {
+    width: 500px;
+    /* background-color: red; */
+    height: 300px;
+}
+nav.right {
+    height: 500px;
+    width: 500px;
+    /* background-color: rebeccapurple; */
+    margin-left: 30vw ;
+}
+
+
+nav.page2 h1 {
+    color: #D01D1D;
+    font-size: 50px;
+    position: relative;
+    left: 5vw;
+    font-weight: bolder;
+    width: 400px;
+}
+
+nav.page2 p {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    left: 5vw;
+    font-size: 20px;
+    top: 50px;
+}
+
+div.picture1 {
+    background-image: url(assets/sumpahpemuda.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+nav.page3 h1 {
+    color: var(--color4);
+    font-size: 50px;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+div.arrow1, div.arrow2, div.arrow3 {
+    width: 85vw;
+    height: 60px;
+    background-color: darkgray;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+nav.page4 {
+    height: 100vh;
+}
+
+div.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+nav.page4 h1 {
+    color: #D01D1D;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav.page4 div.box1, .box2, .box3, .box4 {
+    background-color: gray;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
